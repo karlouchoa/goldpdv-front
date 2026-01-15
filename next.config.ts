@@ -1,0 +1,22 @@
+import type { NextConfig } from "next";
+
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "placehold.co",
+      },
+      {
+        protocol: "https",
+        hostname: "www.goldpdv.com.br",
+      },
+      {
+        protocol: "https",
+        hostname: "www.nortesoft.com.br",
+      }
+    ],
+  },
+};
+
+export default nextConfig;
